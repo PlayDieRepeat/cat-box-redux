@@ -6,12 +6,12 @@ namespace LD47.Core
 {
     public class EventHandler : MonoBehaviour
     {
-        SceneLoader obj_sceneLoader;
+        OldSceneLoader _objOldSceneLoader;
 
         // Start is called before the first frame update
         void Start()
         {
-            obj_sceneLoader = FindObjectOfType<SceneLoader>();
+            _objOldSceneLoader = FindObjectOfType<OldSceneLoader>();
         }
 
         // Update is called once per frame
@@ -22,7 +22,7 @@ namespace LD47.Core
 
         public void callReloadLevel()
         {
-            obj_sceneLoader.ReloadLevel();
+            _objOldSceneLoader.ReloadLevel();
         }
     }
 }

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ExcludedFromBuild
+  m_EditorClassIdentifier: 
+  m_GroupName: ExcludedFromBuild
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9ae56f209bd6f3d4785cab744ad8575e
+  m_SerializeEntries:
+  - m_GUID: 85ae43d2a314a4647a47547d818f8970
+    m_Address: Assets/0_Scenes/Sandbox/detection_demo.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fc0d4010bbf28b4594072e72b8655ab
+    m_Address: Assets/0_Scenes/Sandbox.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8eb600e0c4655394f80139e9717a43e7
+    m_Address: Assets/0_Scenes/Sandbox/jg_sandbox.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58994dd835e656a40bec5028d5b3b01a
+    m_Address: Assets/0_Scenes/Sandbox/ro_aggro.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c2e8d24d501476438b149a1e3844083
+    m_Address: Assets/0_Scenes/Sandbox/ro_sandbox.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3cab0b41affd6aa4d8281f8d4e3aaa2d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 35b43e480304b544ba109ac9d9b2dd5c, type: 2}
+    - {fileID: 11400000, guid: 70a0cd30cd799814184edff3ac2704d6, type: 2}

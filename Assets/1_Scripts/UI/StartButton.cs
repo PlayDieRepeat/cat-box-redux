@@ -6,12 +6,12 @@ namespace LD47.UI
 {
     public class StartButton : MonoBehaviour
     {
-        SceneLoader obj_sceneLoader;
+        OldSceneLoader obj_sceneLoader;
 
         // Start is called before the first frame update
         void Start()
         {
-            obj_sceneLoader = FindObjectOfType<SceneLoader>();
+            obj_sceneLoader = FindObjectOfType<OldSceneLoader>();
         }
 
         // load's Jake's scene

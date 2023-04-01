@@ -18,12 +18,12 @@ namespace LD47.Level
         [SerializeField] [Range(0f, 5f)] float fadeWaitTime = 1f;
 
         Fader obj_fader;
-        SceneLoader obj_sceneLoader;
+        OldSceneLoader obj_sceneLoader;
 
         private void Start()
         {
             obj_fader = FindObjectOfType<Fader>();
-            obj_sceneLoader = FindObjectOfType<SceneLoader>();
+            obj_sceneLoader = FindObjectOfType<OldSceneLoader>();
         }
 
         void OnDrawGizmos()
@@ -68,7 +68,7 @@ namespace LD47.Level
 
         void PlayerControlEnabled(bool isEnabled)
         {
-            GameObject.FindWithTag(TAG).GetComponent<PlayerController>().enabled = isEnabled;
+            //GameObject.FindWithTag(TAG).GetComponent<PlayerController>().enabled = isEnabled;
         }
         
         public void ReloadLevel()

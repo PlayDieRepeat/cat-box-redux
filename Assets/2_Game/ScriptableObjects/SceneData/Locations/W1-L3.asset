@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ba58200710490e8d38b62b3419de4f, type: 3}
+  m_Name: W1-L3
+  m_EditorClassIdentifier: 
+  description: 
+  sceneType: {fileID: 11400000, guid: b51a1ae2e79c2ca458a1083d4b227ffa, type: 2}
+  sceneReference:
+    m_AssetGUID: d5c6a1d647f554a438099b7997475d00
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  locationName: W1-L3
